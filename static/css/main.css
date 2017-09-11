@@ -128,7 +128,7 @@ a#download {
 /* main */
 .main {
     left: 350px;
-    width: 900px;
+    width: 910px;
     height: 100%;
     padding: 15px 20px 0;
     background: #f0f2f1;
@@ -139,6 +139,9 @@ a#download {
 }
 .main a {
     color: #4db6ac;
+}
+.main-info{
+    padding-left:0;
 }
 .main-info dt {
     font-size: 26px;
