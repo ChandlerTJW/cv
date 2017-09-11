@@ -2,6 +2,7 @@
 body {
     background: #e0e0e0;
     height: 1400px;
+    margin:0;
     font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', 微软雅黑, 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
 }
 p {
@@ -39,8 +40,8 @@ li, ul {
 
 /* container */
 .container {
-    width: 1260px;
-    height: 2200px;
+    width: 1050px;
+    height: 1530px;
     position: relative;
     margin: 0 auto;
 }
@@ -128,7 +129,7 @@ a#download {
 /* main */
 .main {
     left: 350px;
-    width: 910px;
+    width: 700px;
     height: 100%;
     padding: 15px 20px 0;
     background: #f0f2f1;
@@ -142,6 +143,9 @@ a#download {
 }
 .main-info{
     padding-left:0;
+}
+.main-info p{
+    width:620px;
 }
 .main-info dt {
     font-size: 26px;
