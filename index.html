@@ -19,7 +19,7 @@
                     <dt> <i class="icon-bookmark"></i>
                         应聘职位
                     </dt>
-                    <dd>Python工程师&nbsp;&nbsp;|&nbsp;&nbsp;前端工程师</dd>
+                    <dd>&nbsp;&nbsp;后端工程师</dd>
                 </li>
 
                 <li class="sidebar-list">
@@ -54,21 +54,21 @@
                         </div>
                     </dd>
                     <dd>
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar" style="width: 70%"></div>
+                        </div>
+                    </dd>
+                    <dd>
                         <div class="skill-name">HTML</div>
                         <div class="skill-bar-wrap">
-                            <div class="skill-bar" style="width: 75%"></div>
+                            <div class="skill-bar" style="width: 70%"></div>
                         </div>
                     </dd>
                     <dd>
                         <div class="skill-name">CSS</div>
                         <div class="skill-bar-wrap">
                             <div class="skill-bar" style="width: 70%"></div>
-                        </div>
-                    </dd>
-                    <dd>
-                        <div class="skill-name">JavaScript</div>
-                        <div class="skill-bar-wrap">
-                            <div class="skill-bar" style="width: 60%"></div>
                         </div>
                     </dd>
                     <dd>
@@ -86,7 +86,7 @@
                 </li>
             </ul>
 
-            <div id="online-address">在线简历地址<a href="http://tangjian.me/cv/" target="_blank">http://tangjian.me/cv/</a></div>
+            <div id="online-address">在线简历地址<a href="http://tangjian.link/cv/" target="_blank">http://tangjian.link/cv/</a></div>
 
             <a id="download" href="static/汤建的简历.pdf" download="汤建的简历.pdf">
                 <img src="static/img/download_icon.png" alt="下载简历">
@@ -108,6 +108,49 @@
                         <li>
                             <div></div>
                             <h3>
+                                铭垚信息科技有限公司<br>
+                                智慧财务（2017.10~2018.4）
+                                <span class="main-right">
+                                    <!-- <a href="https://github.com/ChandlerTJW/dove" target="_blank">
+                                        <i class="icon-link"></i>
+                                        源码
+                                    </a> -->
+                                    <!-- <a href="http://dove.ihobby.cc/" target="_blank">
+                                        <i class="icon-link"></i>
+                                        演示链接
+                                    </a> -->
+                                </span>
+                            </h3>
+                            <p>
+                                基于机器学习，分析上市公司财务报表和自定义上传报表。分为核心财务数据分析，行业对标评估，财务失真识别，财务危机预警四个模块。<br><br>
+                                前期，后端使用 Django搭建，之后转为 Flask 搭建，并使用Restful Api 的接口向前端提供数据。部署使用 Docker + Gunicorn + Nginx。
+                            </p>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>
+                                博辕信息技术有限公司<br>
+                                国家电网湖州项目（2016.12~2017.10）
+                                <span class="main-right">
+                                    <!-- <a href="https://github.com/ChandlerTJW/dove" target="_blank">
+                                        <i class="icon-link"></i>
+                                        源码
+                                    </a> -->
+                                    <!-- <a href="http://dove.ihobby.cc/" target="_blank">
+                                        <i class="icon-link"></i>
+                                        演示链接
+                                    </a> -->
+                                </span>
+                            </h3>
+                            <p>
+                                1.图表模块的接口。处理 CSV 文件，对数据进行预处理，传给前端供 Echarts 使用。<br><br>
+                                2.文件传输模块接口，即项目组成员，通过文件传输API，可下载项目内部资料。<br><br>
+                                3.自然语言处理模块的接口，对国家电网客服文本，经过分析可得关键字和关键语句，以及它们所占权重。
+                            </p>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>
                                 信鸽
                                 <span class="main-right">
                                     <a href="https://github.com/ChandlerTJW/dove" target="_blank">
@@ -121,11 +164,11 @@
                                 </span>
                             </h3>
                             <p>
-                                使用Flask 构建的网页应用，后端实现了User，Weibo，Comment等数据模型，拥有注册、登录、登出，根据用户性别分配头像，发消息、删除消息，评论消息等功能。数据库使用Sqlite，利用Flask 原生的SqlAlchemy 操作数据库。
-                                自写前端的 HTML，CSS，和 Javascript，并用 Flat-UI 的颜色样式和 Font 图标美化了界面。
+                                使用Flask 构建的网页应用，后端实现了User，Weibo，Comment等数据模型，拥有注册、登录、登出，根据用户性别分配头像，发消息、删除消息，评论消息等功能。<br><br>
+                                并用 AJAX 实现了网页无需重新加载即可增删改查，数据库开发使用Sqlite，部署使用Mysql。
                             </p>
                         </li>
-                        <li>
+                        <!-- <li>
                             <div></div>
                             <h3>
                                 Schedule
@@ -134,18 +177,18 @@
                                         <i class="icon-link"></i>
                                         源码
                                     </a>
-                                    <!-- <a href="http://schedule.ihobby.cc:3000" target="_blank">
+                                    <a href="http://schedule.ihobby.cc:3000" target="_blank">
                                         <i class="icon-link"></i>
                                         演示链接
-                                    </a> -->
+                                    </a>
                                 </span>
                             </h3>
                             <p>
                                 利用 Flask 和 Jquery 搭建的网页应用，后端实现了用户注册、登录，添加事项、修改事项、删除事项等功能。
-                                并用 AJAX 实现了网页无需重新加载即可增删改查个人事项，然后后台用自己写的 API 接口去接受并处理返回的数据，极大的改善了用户体验。
+                                并用 AJAX 实现了网页无需重新加载即可增删改查个人事项。
                             </p>
-                        </li>
-                        <li>
+                        </li> -->
+                        <!-- <li>
                             <div></div>
                             <h3>
                                 豆瓣电影爬虫
@@ -154,10 +197,10 @@
                                         <i class="icon-link"></i>
                                         源码
                                     </a>
-                                    <!-- <a href="http://tangjian.me/movie-spider/" target="_blank">
+                                    <a href="http://tangjian.me/movie-spider/" target="_blank">
                                         <i class="icon-link"></i>
                                         演示链接
-                                    </a> -->
+                                    </a>
                                 </span>
                             </h3>
                             <p>
@@ -197,7 +240,7 @@
                             <p>
                                 前端练手项目，百度知道页面，使用了浮动，相对定位，绝对定位等一系列布局技巧，熟练使用 Photoshop 进行切图，对编写语义化的 HTML，盒模型原理，块元素，行内元素等嵌套规则有着深入的认识，并能完成一些基本的兼容性处理。
                             </p>
-                        </li>
+                        </li> -->
 <!--                         <li>
                             <div></div>
                             <h3>
@@ -227,14 +270,14 @@
                                         <i class="icon-link"></i>
                                         源码
                                     </a>
-                                    <a href="http://tangjian.me/flappy-bird/" target="_blank">
+                                    <!-- <a href="http://tangjian.me/flappy-bird/" target="_blank">
                                         <i class="icon-link"></i>
                                         演示链接
-                                    </a>
+                                    </a> -->
                                 </span>
                             </h3>
                             <p>
-                                Javascript 小游戏像素鸟，具备小鸟上下左右移动和飞翔的功能，管道和地面的自动铺设功能，通过管道加分，撞击管道则游戏结束。在打砖块的基础上，实现了游戏动画的自动生成，以及游戏场景的切换。
+                                Javascript 小游戏像素鸟，具备小鸟上下左右移动和飞翔的功能，管道和地面的自动铺设功能，通过管道加分，撞击管道则游戏结束。实现了游戏动画的自动生成，以及游戏场景的切换。
                             </p>
                         </li>
                     </ul>
@@ -250,10 +293,10 @@
                             <h3>Web 后端</h3>
                             <ul>
                                 <li>
-                                    <p>熟练使用 Python Flask 框架进行 Web 开发</p>
+                                    <p>熟练使用 Python 进行 Web 开发</p>
                                     <p>熟悉 HTTP，TCP，IP 网络协议</p>
                                     <p>熟悉网络编程，利用 socket 实现过 Web Server</p>
-                                    <p>熟练使用 SQLite 数据库，能用 SQLAlchemy 进行数据库开发</p>
+                                    <p>熟练使用 MySQL，SQLite 等关系型数据库</p>
                                     <p>具备基本的 Web 安全知识（SQL 注入等）</p>
                                     <p>熟悉 Linux 基本操作和命令</p>
                                     <p>了解 MVC 架构、Git的基本使用</p>
@@ -276,7 +319,6 @@
                                     <h4>JavaScript</h4>
                                     <p>熟悉 JavaScript 语言核心技术</p>
                                     <p>了解 JQuery, 能用原生 JavaScript 或 JQuery 制作出页面动态效果</p>
-                                    <p>了解 HTTP 请求原理和面向对象思想</p>
                                 </li>
                             </ul>
                         </li>
